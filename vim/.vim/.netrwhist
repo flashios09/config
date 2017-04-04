@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/flashios09/.codeintel/db/php/0a9be649ca1f2c45fe81cef52cb5978c'
+let g:netrw_dirhist_2='/Volumes/Data/Sites/test'
+let g:netrw_dirhist_3='/usr/local/etc'
+let g:netrw_dirhist_4='/Users/flashios09/.vim'

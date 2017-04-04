@@ -1,0 +1,19 @@
+server {
+    listen 80;
+    root /Volumes/Data/Sites/;
+    index index.html index.php /_h5ai/public/index.php;
+    server_name local.dev;
+    autoindex on;
+
+    location / {
+        try_files $uri $uri/ index.html;
+    }
+
+    include /usr/local/etc/nginx/snippets/php-fpm_location.conf;
+
+    ##
+    # Logging Settings
+    ##
+    access_log /usr/local/var/log/nginx/local.dev/access.log access_json;
+    error_log /usr/local/var/log/nginx/local.dev/error.log;
+}
