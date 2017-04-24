@@ -9,6 +9,7 @@ if status --is-interactive
 	abbr --add glab 'cd /Volumes/Data/Git/gitlab'
 	abbr --add ga 'git add'
 	abbr --add gs 'git status'
+	abbr --add gd 'git diff'
 	abbr --add gaa 'git add --all'
     abbr --add gc  'git commit -m'
 	abbr --add gca  'git commit -a -m'
