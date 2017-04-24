@@ -11,7 +11,7 @@ if status --is-interactive
 	abbr --add gs 'git status'
 	abbr --add gaa 'git add --all'
     abbr --add gc  'git commit -m'
-	abbr --add gac  'git commit -a -m'
+	abbr --add gca  'git commit -a -m'
 	abbr --add gp  'git push'
 	abbr --add gpl  'git pull'
 	abbr --add gpom 'git push -u origin master'
