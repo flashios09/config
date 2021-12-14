@@ -2,7 +2,7 @@ server {
     listen 80;
     root /Volumes/Data/Sites/;
     index index.html index.php /_h5ai/public/index.php;
-    server_name local.dev;
+    server_name local.test;
     autoindex on;
 
     location / {
@@ -14,6 +14,6 @@ server {
     ##
     # Logging Settings
     ##
-    access_log /usr/local/var/log/nginx/local.dev/access.log access_json;
-    error_log /usr/local/var/log/nginx/local.dev/error.log;
+    access_log /usr/local/var/log/nginx/local.test/access.log access_json;
+    error_log /usr/local/var/log/nginx/local.test/error.log;
 }
